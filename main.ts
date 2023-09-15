@@ -32,7 +32,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     작동 = 4
 })
 function 태그인식 () {
-	
+    basic.showArrow(ArrowNames.North)
 }
 function 사람인식 () {
     if (huskylens.readArrow_s(Content4.ID) == 1 || huskylens.readArrow_s(Content4.ID) == 2) {
