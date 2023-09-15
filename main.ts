@@ -33,6 +33,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 function 태그인식 () {
     basic.showString("jhs")
+    basic.showString("jhs2")
 }
 function 사람인식 () {
     if (huskylens.readArrow_s(Content4.ID) == 1 || huskylens.readArrow_s(Content4.ID) == 2) {
